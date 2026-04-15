@@ -3,6 +3,7 @@ import IgorPage from './pages/IgorPage.jsx'
 import LizaPage from './pages/LizaPage.jsx'
 
 export default function App() {
+
   return (
     <BrowserRouter>
       <Routes>
