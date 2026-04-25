@@ -56,7 +56,7 @@ export default function LizaPage() {
                     onClick={() => setLanguage(prev => prev === 'en' ? 'thai' : 'en')}
                 />
             </div>
-            <h1 style={{color: "white"}}>{content[language].title}</h1>
+            <h1 style={{color: "white", textAlign: 'center'}}>{content[language].title}</h1>
             <span style={{
                 color: "white",
                 fontSize: '1.3rem',
